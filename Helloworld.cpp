@@ -1,0 +1,17 @@
+// 1. In C++ programming, input and output operations are handled using streams provided by the `<iostream>` header.
+// 2. By using `using namespace std;`, you can write `cout` instead of `std::cout`, making your code simpler and easier to read.
+// 3. Every C++ program must have a `main()` function, which serves as the entry point of the program.
+// 4. Curly braces `{ ... }` are used to define the beginning and end of a block of code.
+// 5. `cout <<` is used to display output on the screen. For example, `cout << "hello";` will print "hello" to the screen.
+// 6. `return 0;` indicates that the program has ended successfully.
+// 7. `cin >>` is used to take input from the user via the keyboard. It comes from the `<iostream>` header and uses the extraction operator (`>>`).
+// 8. `endl` is used to insert a new line in the output, similar to `\n` in other programming languages.
+
+#include<iostream>
+int main(){
+    int age;
+    std::cout <<"hello world" << std::endl;
+    std::cin >> age;
+    std::cout<< "your age is" << age;
+    return 0;
+}
