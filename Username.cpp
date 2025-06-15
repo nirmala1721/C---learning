@@ -6,8 +6,18 @@ using namespace std;
 int main()
 {
     string name;
-    cout <<"what is your name" << endl;
-    cin >> name ;
-    cout << "my name is "<< name ;
+    int age;
+    
+    cout <<"what is your name ?";
+    cin >> name;
+
+    cout <<"what is your age";
+    cin >> age ;
+
+    cout<<"hello my name is"<< name << endl;
+    cout << "my age is" << age <<endl;
+
     return 0;
+
+
 }
