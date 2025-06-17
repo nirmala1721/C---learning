@@ -1,0 +1,40 @@
+1. A variable is a name given to a memory location where data can be stored. Its value can be changed during program execution.
+2. Variables must be declared before use in C++.
+
+Rules for creating variables in C++:
+a. Variable names can consist of alphabets, digits, and underscores.
+b. Variable names must begin with an alphabet or an underscore.
+c. Variable names must not start with digits or any special characters.
+d. Reserved keywords cannot be used as variable names.
+e. Variable names are case-sensitive.
+
+The syntax for declaring a variable is: variable_type variable_name;
+
+Variables can be declared in several ways, for example:
+I.   int age;        // Declaration without initialization
+II.  int age(2);     // Constructor initialization
+III. int age{2};     // C++11 list initialization
+IV.  int age = 2;    // C-like initialization
+
+3. There are three types of variables:
+   1. Local Variable
+   2. Instance Variable
+   3. Static Variable
+
+ 1. Local Variable
+   a. Declared inside a block of code or a function.
+   b. Exists only while the function or block is running.
+   c. Cannot be used outside the function or block where it is declared.
+   d. Memory is allocated when the function is called.
+   e. Memory is released when the function ends.
+   f. Must be declared and often initialized before use.
+
+ 2. Instance Variable
+   a. Declared inside a class but outside any function.
+   b. Belongs to each object (instance) of the class.
+   c. Each object gets its own copy of the instance variable.
+
+ 3. Static Variable
+   a. Retains its value even after the function ends.
+   b. Is not re-created every time the function or object runs.
+   c. Is shared—only one copy exists in memory.
