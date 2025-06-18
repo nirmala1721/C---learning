@@ -1,0 +1,30 @@
+1. In C++, data types specify what kind of data can be stored in variables.
+2. Data types tell the compiler how much memory to reserve and what operations can be performed on the variable.
+There are several categories of data types:
+
+Basic Data Types:
+ a. int:    Integer numbers (e.g., 10, -5, 0)
+ b. float:  Decimal numbers, single precision (e.g., 3.14, -0.5)
+ c. double: Decimal numbers, double precision (e.g., 3.1415926)
+ d. char:   Single character (e.g., 'A', '9')
+ e. bool:   Boolean values (true or false)
+ f. void:   No value (used for functions that return nothing)
+
+Derived Data Types:
+ a. array:     Collection of elements of the same type (e.g., int arr[5];)
+ b. pointer:   Stores memory address (e.g., int *ptr;)
+ c. reference: Alias for another variable (e.g., int &ref = var;)
+ d. function:  Group of statements (e.g., void display();)
+
+User-Defined Data Types:
+ a. struct: Group of variables of different types (e.g., struct Student)
+ b. union:  Like struct, but shares memory among members (e.g., union Data)
+ c. enum:   List of named integer constants (e.g., enum Color {Red, Green};)
+ d. class:  Blueprint for objects (OOP) (e.g., class Car { ... };)
+
+Modifiers with Data Types:
+ a. signed:     Used with int, char (e.g., signed int a;)
+ b. unsigned:   Used with int, char (e.g., unsigned int b;)
+ c. short:      Used with int (e.g., short int c;)
+ d. long:       Used with int, double (e.g., long int d;)
+ e. long long:  Used with int (e.g., long long int e;)
