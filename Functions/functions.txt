@@ -1,0 +1,37 @@
+1. A function is a block of code designed to perform a specific task.
+2. Think of a function like a machine: you provide input, it processes that input, and then returns an output.
+3. Functions help break a large program into smaller, manageable parts, making the code easier to understand.
+4. Function code can be reused throughout your program, reducing repetition.
+5. Using functions makes your code cleaner, more readable, and easier to maintain.
+6. C++ provides many built-in functions, such as:
+    - sqrt() for square roots
+    - pow() for powers
+    - cin and cout for input and output
+7. You can also create your own functions, known as user-defined functions.
+8. Basic syntax for defining a function:
+    return_type function_name(parameters) {
+         // function body
+    }
+9. Functions can accept parameters, which are placeholders for the values you pass in. This allows the function to work with different inputs.
+    Example:
+    void greet(string name) {
+         cout << "Hello, " << name << "!" << endl;
+    }
+    - Here, name is a parameter of type string.
+    - You can call the function with an actual value:
+      greet("Nirmala");
+10. Types of parameters:
+     a. Formal Parameters: Declared in the function definition (e.g., string name).
+     b. Actual Parameters (Arguments): The real values passed to the function when calling it (e.g., "Nirmala").
+11. Functions can return values to the caller. The return value is the result produced by the function after completing its task.
+     Example:
+     int add(int a, int b) {
+          return a + b;
+     }
+     - int before the function name means it returns an integer.
+     - return a + b; sends the result back to the caller.
+12. If a function does not return any value, use void as the return type.
+     Example:
+     void showMessage() {
+          cout << "Welcome!" << endl;
+     }
