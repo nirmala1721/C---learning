@@ -1,0 +1,8 @@
+1. In call by value a copy of the variable is passed through function 
+2. that means the function works with copy not original
+3. so if the function changes it value it doesnt effect orginal value 
+4. In c++ call by value means that when function is called the actual values of arguments are copied into the function paramaters this means any changes made inside the function doesnt effect orginal arguments of the function 
+5. When you call a function using call by value:
+  a. A copy of each argument is made.
+  b.The function works with copies, not the original variables.
+  c.Changes made to parameters inside the function are not reflected outside the function

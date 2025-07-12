@@ -1,0 +1,10 @@
+Call by reference
+1. In call by reference instead of passing the copy of variable we pass the actual reference (address) of the variable to the function
+2. the function works with orginal variable
+3. any changes  made inside the variable effect the outside variable function 
+syntax:
+void function_name(int &x) {
+    // code
+}
+4. Why the & symbol?
+The & here tells the compiler: “Do not create a copy of the variable. Instead, use a reference to the original one.”
