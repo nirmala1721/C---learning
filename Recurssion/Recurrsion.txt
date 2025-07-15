@@ -1,0 +1,28 @@
+1. Recursion is a programming technique where a function calls itself to solve a problem by breaking it down into smaller, more manageable subproblems.
+
+2. Basic syntax of a recursive function:
+    void functionName() {
+         // Base case: defines the stopping condition
+         if (baseCondition) return;
+
+         // Recursive case: function calls itself with modified input
+         functionName(smallerInput);
+    }
+
+3. Key components of recursion:
+    a. Base Case – The condition under which the recursion stops, preventing infinite loops.
+    b. Recursive Case – The part where the function calls itself with a simpler or smaller input, moving towards the base case.
+
+    a. Base case - 
+      i.The base case is the stopping condition in a recursive function. It prevents infinite recursion by telling the function when to stop calling itself.
+      ii. the base case is important because Without a base case, the function will keep calling itself forever, eventually causing a stack overflow
+      iii.When solving a problem recursively, you're breaking it down into smaller subproblems. The base case is the smallest version of the problem that can be solved directly without recursion.
+
+    b. Recursive Case-
+      i.The recursive case is the part of a recursive function where the function calls itself to solve a smaller subproblem.
+
+4. Example: Calculating factorial using recursion
+    int factorial(int n) {
+         if (n <= 1) return 1; // Base case
+         return n * factorial(n - 1); // Recursive case
+    }
