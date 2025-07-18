@@ -1,3 +1,5 @@
+// sum of natural numbers
+
 #include<iostream>
 using namespace std;
 int sum(int n){

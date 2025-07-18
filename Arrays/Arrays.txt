@@ -1,0 +1,24 @@
+Arrays
+1. Arrays in c++ is a collection of elements of same data type stored in a contigous memory can be accessed with help of indexing it helps to store multiple values under single varible name and access through indexing
+2. syntax- 
+          data_type array_name[size];
+3. example- 
+         int numbers[5]; // creates an array of 5 integers
+4. methods to intilazing Arrays
+  1. Without Instalizing
+      int arr[3]; // contains garbage values until assigned
+
+  2. with values
+        int arr[3] = {10, 20, 30};
+  
+  3. Let compiler decide the size
+     int arr[] = {5, 15, 25}; // size is 3
+
+5. to asccesing elemnts in array 
+   C++ arrays are zero indexed where first number will be start with 0 index
+
+6. there will be multi dimesinonal arrays -
+int matrix[2][3] = {
+    {1, 2, 3},
+    {4, 5, 6}
+}; 
