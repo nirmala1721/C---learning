@@ -1,0 +1,40 @@
+1. In C++, strings are used to represent sequences of characters, such as words or sentences.
+2. We use getline() to read an entire line of text — including spaces — into a string or character array.
+3. There are two primary ways to handle strings:
+    
+    a. C-style Strings (Character Arrays)
+        - These are arrays of characters ending with a null character '\0'.
+        - Example:
+          char name[] = "Nirmala";
+          // Internally: ['N', 'i', 'r', 'm', 'a', 'l', 'a', '\0']
+
+        Limitations of C-style Strings:
+          i.   Fixed size (cannot grow or shrink dynamically).
+          ii.  Lack of built-in functions for common operations (e.g., appending, finding length).
+          iii. Error-prone due to manual memory management.
+
+    b. C++ Strings (std::string)
+        - Provided by the Standard Template Library (STL).
+        - Flexible and easy to use; can grow and shrink as needed.
+        - To use std::string, include the following headers:
+          #include <iostream>
+          #include <string>
+          using namespace std;
+
+        Common std::string Operations:
+
+          Operation         | Code Example                  | Description
+          ------------------|------------------------------|-------------------------------
+          Length            | name.length()                 | Returns the number of characters
+          Append            | name += " Bigimalla"          | Adds text to the end
+          Insert            | name.insert(2, "hi")          | Inserts text at a given position
+          Substring         | name.substr(0, 3)             | Extracts part of the string
+          Find              | name.find("ma")               | Finds the position of a substring
+          Replace           | name.replace(0, 3, "Ni")      | Replaces part of the string
+          Clear             | name.clear()                  | Empties the string
+          Empty Check       | name.empty()                  | Checks if the string is empty
+          Comparison        | if(name == "Nirmala")         | Compares two strings
+
+Summary:
+- Use C-style strings for low-level operations or legacy code.
+- Prefer std::string for modern C++ development due to its safety, flexibility, and rich set of features.
