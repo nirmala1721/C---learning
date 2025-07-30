@@ -1,0 +1,25 @@
+Pointers
+
+1. A pointer is a variable that holds the memory address of another variable.
+
+2. Reasons to use pointers:
+    a. Directly access and modify memory.
+    b. Pass large data to functions efficiently (no copying).
+    c. Allocate memory dynamically during runtime.
+    d. Work with arrays and strings.
+    e. Implement data structures like linked lists and trees.
+
+3. Syntax:
+        int a = 10;      // Regular variable
+        int* p = &a;     // 'p' is a pointer to 'a'
+
+        i.   int* p declares 'p' as a pointer to int.
+        ii.  &a gets the address of 'a'.
+        iii. *p accesses the value at the address stored in 'p'.
+
+4. Pointer terminology:
+    Term      Meaning
+    &         Address-of operator
+    *         Dereference operator (access value at address)
+    int* p    Pointer to an int
+    *p = 30;  Change the value at the address pointed by 'p'
